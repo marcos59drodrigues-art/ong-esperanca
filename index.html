@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Esperança - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+    <h1>ONG Esperança</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="cadastro.html">Seja Voluntário</a></li>
+        </ul>
+    </nav>
+   </header> 
+
+   <main>
+    <section id="sobre">
+        <h2>Nossa Missão</h2>
+        <p>Transformar vidas por meio da solidariedade e da educação.</p>
+        
+        <!-- Recurso de mídia integrado -->
+        <img src="imagem/institucional.jpg.jpg" alt="Mãos unidas de voluntários representando a cooperação e o trabalho em equipe da ONG">
+    </section>
+
+    <!-- SEÇÃO TEMPORÁRIA DE FEEDBACK PARA CAPTURA DE TELA (PRINTS) -->
+    <section id="feedback-demo" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ddd;">
+        <h2>Demonstração de Feedbacks</h2>
+        
+        <!-- Badges / Etiquetas -->
+        <div style="margin: 1rem 0;">
+            <span class="badge badge--success">Voluntariado</span>
+            <span class="badge badge--info">Educação</span>
+            <span class="badge badge--warning">Urgente</span>
+        </div>
+
+        <!-- Alerta de Sucesso -->
+        <div class="alert alert--success">
+            <strong>Sucesso!</strong> Ação realizada e cadastrada na ONG Esperança.
+        </div>
+
+        <!-- Alerta de Erro -->
+        <div class="alert alert--error">
+            <strong>Atenção!</strong> Preencha os campos obrigatórios para prosseguir.
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Fale conosco para tirar dúvidas ou apoiar nossos projetos:</p>
+        <ul>
+            <li><strong>E-mail:</strong> contato@ongesperanca.org.br</li>
+            <li><strong>Telefone:</strong> (11) 99999-8888</li>
+        </ul>
+    </section>
+   </main>
+
+   <!-- Componentes Flutuantes de Feedback (Toast e Modal) -->
+   <div class="toast">
+       <span>✓ Notificação: Dados salvos com sucesso!</span>
+   </div>
+
+   <div class="modal-overlay">
+       <div class="modal">
+           <h2>Confirmar Ação</h2>
+           <p style="margin: 15px 0;">Você está prestes a apoiar um projeto social da ONG Esperança.</p>
+           <button class="btn btn--primary" onclick="document.querySelector('.modal-overlay').style.display='none';">Confirmar</button>
+       </div>
+   </div>
+
+   <footer>
+      <p>&copy; 2026 ONG Esperança - Todos os direitos reservados.</p>
+   </footer>
+</body>
+</html>
